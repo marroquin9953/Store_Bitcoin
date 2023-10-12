@@ -82,14 +82,14 @@ export const CartConfirm = () => {
                   router.push(`/checkout?${checkoutParams.toString()}`)
                 }
               >
-                Generate Invoice
+                Generar factura
               </Button>
               <Button
                 isDisabled={isLoading}
                 variant="outline"
                 onClick={onDiscard}
               >
-                Discard
+                Desechar
               </Button>
             </>
           )}

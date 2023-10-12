@@ -5,7 +5,7 @@ export function ForkMeButton() {
   return (
     <Button
       as="a"
-      href="https://github.com/korhaliv/plebshop"
+      href="https://github.com/marroquin9953/Store_Bitcoin"
       height="24px"
       sx={{
         borderRadius: 8,
@@ -21,7 +21,7 @@ export function ForkMeButton() {
       }}
       rightIcon={<GhIcon />}
     >
-      Fork me on Github
+      Sigueme en Github
     </Button>
   );
 }

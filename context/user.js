@@ -45,7 +45,7 @@ export function UserProvider(props) {
     localforage.removeItem(SHOP_KEY);
   };
 
-  // Restore username and shop from the DB
+  // Restaurar nombre de usuario y comprar desde la base de datos
   useEffect(() => {
     const restoreUserInfo = async () => {
       try {

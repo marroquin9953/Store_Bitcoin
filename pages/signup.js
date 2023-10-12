@@ -69,13 +69,13 @@ const Signup = () => {
           {step === STEP_SIGNUP && (
             <>
               <Heading as="h1" mb={3} mt="24px">
-                Accept Bitcoin Lightning on your point of sale
+              Acepta Bitcoin Lightning en tu punto de venta
               </Heading>
               <Text>
-                Build your own in-person checkout to accept Lightning payments.
+              Cree su propio pago en persona para aceptar pagos Lightning.
               </Text>
 
-              <FormLabel mt="56px">Strike username</FormLabel>
+              <FormLabel mt="56px">Su usuario de Strike</FormLabel>
               <Input
                 autoComplete="off"
                 required
@@ -85,7 +85,7 @@ const Signup = () => {
               />
               <FormErrorMessage>{error}</FormErrorMessage>
               <Button mt="auto" type="submit" isLoading={isBusy}>
-                Sign in
+              Iniciar sesión
               </Button>
             </>
           )}
@@ -93,16 +93,16 @@ const Signup = () => {
           {step === STEP_SHOP_NAME && (
             <>
               <Heading as="h1" mb="8px" mt="24px">
-                Choose your store name
+              Elige el nombre de tu tienda
               </Heading>
               <Text>
-                This store will be connected to{' '}
+              Esta tienda estará conectada a{' '}
                 <Text as="span" fontWeight="bold">
                   @{user}
                 </Text>
               </Text>
 
-              <FormLabel mt="56px">Store name</FormLabel>
+              <FormLabel mt="56px">Nombre de la tienda</FormLabel>
               <Input
                 autoComplete="off"
                 required
@@ -111,7 +111,7 @@ const Signup = () => {
                 autoFocus
               />
               <Button mt="auto" type="submit">
-                Create store
+              Crear tienda
               </Button>
             </>
           )}

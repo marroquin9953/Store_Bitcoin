@@ -50,8 +50,8 @@ export const AddNewProduct = () => {
 
       const reader = new FileReader();
 
-      // create preview URL with original file user uploaded cause then it's a direct link to the file
-      // on their disk
+      // cree una URL de vista previa con el archivo original subido por el usuario porque entonces es un enlace directo al archivo
+      // en su disco
       const previewUrl = window.URL.createObjectURL(firstFile);
 
       reader.onabort = onError;
@@ -84,7 +84,7 @@ export const AddNewProduct = () => {
     <form onSubmit={onSubmit} style={{ minHeight: '100%' }}>
       <Page minHeight="100%">
         <Text color="face.primary" fontWeight="bold" mb={5}>
-          Add product
+        Agregar producto
         </Text>
         <Flex height="100%" flexDirection="column">
           <Group caption="Product" mb={5}>
@@ -94,7 +94,7 @@ export const AddNewProduct = () => {
             </Box>
 
             <Box>
-              <FormLabel>Price</FormLabel>
+              <FormLabel>Precio</FormLabel>
               <Input
                 name="price"
                 placeholder="$"
@@ -108,7 +108,7 @@ export const AddNewProduct = () => {
             <Box>
               <FormControl isInvalid={!!error}>
                 <HStack justify="space-between">
-                  <FormLabel>Media</FormLabel>
+                  <FormLabel>Fotografia</FormLabel>
                   <Text fontSize="13px" color="face.tertiary" pr={4}>
                     128x128px
                   </Text>
@@ -143,7 +143,7 @@ export const AddNewProduct = () => {
                         sx={{ textDecoration: 'underline' }}
                         variant="unstyled"
                       >
-                        Remove file
+                        Eliminar archivo
                       </Button>
                     </HStack>
                   ) : (
@@ -155,7 +155,7 @@ export const AddNewProduct = () => {
                           isLoading={isProcessingFile}
                           style={{ pointerEvents: 'none' }}
                         >
-                          Add File
+                          Agregar archivo
                         </Button>
                       </label>
                     </>
@@ -175,9 +175,9 @@ export const AddNewProduct = () => {
           </Group>
         </Flex>
         <Flex direction="column">
-          <Button type="submit">Save product</Button>
+          <Button type="submit">Guardar producto</Button>
           <Button mt={4} variant="outline" onClick={() => router.push(`/home`)}>
-            Discard
+          Desechar
           </Button>
         </Flex>
       </Page>

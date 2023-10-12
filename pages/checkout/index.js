@@ -84,11 +84,11 @@ function Checkout({ expirationInSec, lnInvoice, invoiceId, amount, isError }) {
   return isError ? (
     <Page height="100%">
       <Heading mt="auto" textAlign="center" as="h1" variant="category" mb={2}>
-        Oops. Something went wrong.
+      Ups. Algo salió mal.
       </Heading>
 
       <Button mt="auto" variant="outline" onClick={() => router.push(`/home`)}>
-        Get outta here!
+      ¡Fuera de aquí!
       </Button>
     </Page>
   ) : (
@@ -105,7 +105,7 @@ function Checkout({ expirationInSec, lnInvoice, invoiceId, amount, isError }) {
           />
           {isPaid ? (
             <Text mt="24px" mb="18px" color="face.positive">
-              Invoice paid
+              Factura pagada
             </Text>
           ) : (
             <Text mt="24px" mb="18px" color="object.warn">
@@ -124,7 +124,7 @@ function Checkout({ expirationInSec, lnInvoice, invoiceId, amount, isError }) {
       <VStack mt="auto" align="stretch">
         {isExpired && (
           <Button isLoading={isLoading} onClick={() => router.reload()}>
-            Refresh
+            Actualizar
           </Button>
         )}
 
@@ -132,7 +132,7 @@ function Checkout({ expirationInSec, lnInvoice, invoiceId, amount, isError }) {
           <Button onClick={() => router.push(`/home`)}>Done</Button>
         ) : (
           <Button variant="outline" onClick={() => router.push(`/home`)}>
-            Cancel your order
+            Cancela tu pedido
           </Button>
         )}
       </VStack>

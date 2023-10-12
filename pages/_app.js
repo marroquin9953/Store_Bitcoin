@@ -61,7 +61,7 @@ function Plebshop({ Component, pageProps }) {
         }}
       />
       <Head>
-        <title>Plebshop ⚡️</title>
+        <title>DarkStore ⚡️</title>
         <meta name="description" content="Bitcoin POS" />
         <link rel="icon" href="/favicon.svg" />
       </Head>

@@ -4,7 +4,7 @@ export default function UnhandledError() {
   return (
     <Flex align="center" justify="center" height="100%">
       <Heading textAlign="center" as="h1" variant="category" mb={2}>
-        500 | Something went wrong.
+        500 | Algo salió mal.
       </Heading>
     </Flex>
   );

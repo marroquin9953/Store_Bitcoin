@@ -3,9 +3,9 @@ import Text from 'components/Text';
 
 export const Empty = () => (
   <VStack align="left">
-    <Heading variant="headlineBig">Add your first product</Heading>
+    <Heading variant="headlineBig">Añade tu primer producto</Heading>
     <Text>
-      Add physical items, services, or anything else you plan to sell.
+    Agregue artículos físicos, servicios o cualquier otra cosa que planee vender.
     </Text>
   </VStack>
 );

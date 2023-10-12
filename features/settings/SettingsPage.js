@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 const LogoutButton = (props) => {
   return (
     <Button color="face.negative" variant="unstyled" {...props}>
-      Logout
+      Cerrar Sesión
     </Button>
   );
 };
@@ -30,10 +30,10 @@ const SettingsPage = () => {
   return (
     <VStack align="start">
       <Heading as="h1" variant="headlineSmall" mb={3}>
-        Settings
+        Configuración
       </Heading>
       <Heading as="h1" variant="category" mb={2}>
-        Account
+        Cuenta
       </Heading>
       <Flex
         alignSelf="stretch"
