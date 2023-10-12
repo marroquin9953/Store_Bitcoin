@@ -12,7 +12,7 @@ export function ProductsPage(props) {
       {hasProducts ? (
         <VStack align="stretch" mx={-4}>
           <Heading px={4} mb={3} variant="headlineSmall">
-            Home
+            Inicio
           </Heading>
           <ProductList
             flex={1}

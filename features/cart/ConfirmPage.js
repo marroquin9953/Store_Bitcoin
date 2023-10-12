@@ -54,7 +54,7 @@ export const CartConfirm = () => {
     <Page height="auto" minHeight="100%">
       <VStack align="stretch" height="100%" flex={1} mx={-4}>
         <Heading px={4} variant="headlineSmall">
-          Checkout
+          Detalle
         </Heading>
 
         <Text px={4}>
@@ -89,7 +89,7 @@ export const CartConfirm = () => {
                 variant="outline"
                 onClick={onDiscard}
               >
-                Desechar
+                Eliminar compra
               </Button>
             </>
           )}

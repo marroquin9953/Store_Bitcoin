@@ -129,7 +129,7 @@ function Checkout({ expirationInSec, lnInvoice, invoiceId, amount, isError }) {
         )}
 
         {isPaid ? (
-          <Button onClick={() => router.push(`/home`)}>Done</Button>
+          <Button onClick={() => router.push(`/home`)}>Hecho</Button>
         ) : (
           <Button variant="outline" onClick={() => router.push(`/home`)}>
             Cancela tu pedido

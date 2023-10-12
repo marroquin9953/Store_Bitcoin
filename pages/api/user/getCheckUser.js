@@ -8,13 +8,13 @@ export default async function handler(req, res) {
       if (data?.data?.canReceive) {
         res.status(200).json({});
       } else {
-        res.status(400).json({ error: `User can't receive payments` });
+        res.status(400).json({ error: `El usuario no puede recibir pagos` });
       }
     } catch (e) {
       console.log(e);
-      res.status(400).json({ error: 'User not found' });
+      res.status(400).json({ error: 'Usuario no encontrado' });
     }
   } else {
-    res.status(405).json({ error: 'Method not allowed' });
+    res.status(405).json({ error: 'Método no permitido' });
   }
 }

@@ -32,7 +32,7 @@ const Checkout = (props) => {
         isDisabled={!cart.length}
         onClick={() => router.push('/checkout/confirm')}
       >
-        Verificar ({cart.length})
+    Ver detalle ({cart.length})
       </Button>
     </VStack>
   );

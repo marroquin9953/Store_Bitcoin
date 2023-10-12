@@ -89,7 +89,7 @@ export const AddNewProduct = () => {
         <Flex height="100%" flexDirection="column">
           <Group caption="Product" mb={5}>
             <Box>
-              <FormLabel>Title</FormLabel>
+              <FormLabel>Descripción</FormLabel>
               <Input name="title" mb={3} required autoFocus />
             </Box>
 
@@ -177,7 +177,7 @@ export const AddNewProduct = () => {
         <Flex direction="column">
           <Button type="submit">Guardar producto</Button>
           <Button mt={4} variant="outline" onClick={() => router.push(`/home`)}>
-          Desechar
+           Eliminar
           </Button>
         </Flex>
       </Page>

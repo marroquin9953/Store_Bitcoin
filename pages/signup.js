@@ -80,7 +80,7 @@ const Signup = () => {
                 autoComplete="off"
                 required
                 name="user"
-                placeholder="Jack"
+                placeholder="Marroquin"
                 autoFocus
               />
               <FormErrorMessage>{error}</FormErrorMessage>
