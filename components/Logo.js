@@ -1,5 +1,5 @@
-import LogoIcon from 'icons/logo2.svg';
+import LogoIcon from 'icons/logo.svg';
 
 export const Logo = () => {
-  return <LogoIcon width={20} />;
+  return <LogoIcon width={105} />;
 };
