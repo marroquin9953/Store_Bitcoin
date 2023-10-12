@@ -6,7 +6,7 @@ import Text from 'components/Text';
 const DeleteButton = (props) => {
   return (
     <Button color="face.negative" variant="secondary" pr={0} {...props}>
-      Delete
+      Eliminar
     </Button>
   );
 };

@@ -6,7 +6,7 @@ export const ProductList = ({ products, onRemove, ...rest }) => {
   return (
     <VStack spacing="0" align="stretch" {...rest}>
       <Heading as="h1" variant="category" px={4} mb={2}>
-        Products
+        Inventario | Productos
       </Heading>
       <Box>
         <VStack align="stretch" spacing="0">
