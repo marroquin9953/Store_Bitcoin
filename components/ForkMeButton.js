@@ -1,4 +1,4 @@
-import GhIcon from 'icons/gh.svg';
+import GhIcon from 'icons/insta.svg';
 import Button from './Button';
 
 export function ForkMeButton() {
