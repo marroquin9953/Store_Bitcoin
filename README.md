@@ -1,6 +1,6 @@
-## Plebshop ⚡️
+## Store_Dark ⚡️
 
-Sencilla solución de punto de venta alimentada por tu cuenta de [Strike](https://strike.me). Cree su propia caja en persona para aceptar pagos Lightning en un par de minutos y reciba los pagos directamente en su saldo de Strike. Pruébalo en https://plebshop.me.
+Sencilla solución de punto de venta alimentada por tu cuenta de [Strike](https://strike.me). Cree su propia caja en persona para aceptar pagos Lightning en un par de minutos y reciba los pagos directamente en su saldo de Strike. Pruébalo en https://marroquin.netlify.app/signup
 
 1. Introduce tu nombre de usuario de Strike
 2. Elige un nombre para tu tienda
@@ -64,7 +64,7 @@ Echa un vistazo a nuestra [Next.js deployment documentation](https://nextjs.org/
 
 Las maquetas de este proyecto también son de código abierto. Siéntase libre de duplicarlos en Figma para darles una vuelta, o añadir comentarios para cualquier sugerencia que pueda tener.
 
-- Diseños Plebshop](https://www.figma.com/file/05SDCQPoM7liZatRQYx7VE/Plebshop-Designs)
-- Diagramas de flujo de Plebshop](https://www.figma.com/file/uCTCdXxt8Z1LnJNBkLfrf9/Plebshop-Flows)
+- Diseños Store_Dark](https://www.figma.com/file/05SDCQPoM7liZatRQYx7VE/Plebshop-Designs)
+- Diagramas de flujo de Store_Dark](https://www.figma.com/file/uCTCdXxt8Z1LnJNBkLfrf9/Plebshop-Flows)
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
