@@ -36,9 +36,9 @@ El directorio `pages/api` se asigna a `/api/*`. Los archivos en este directorio 
 
 ## Variables de entorno
 
-Para el desarrollo local, crea un archivo llamado .env.local y añade allí tu clave de la API de Strike. Echa un vistazo al ejemplo env.local.para ver las env vars requeridas así como las opcionales.
+Para el desarrollo local, crea un archivo llamado .env.local y añade allí tu clave de la API de Strike. Echa un vistazo al ejemplo env.example.para ver las env vars requeridas así como las opcionales.
 
-- `STRIKE_API_KEY` - Clave API de comercio de Strike
+- `STRIKE_API_KEY` - Clave API de comercio de Strike (API Key de su cuenta Strike)
 - `STRIKE_API_URL` - URL de la API de Strike. Actualmente `https://api.strike.me/v1/`
 - `BUGSNAG_BROWSER_API_KEY` - [Bugsnag](https://www.bugsnag.com/) clave bugsnag opcional para registrar excepciones del navegador
 - `BUGSNAG_SERVER_API_KEY` - [Bugsnag](https://www.bugsnag.com/) clave opcional para registrar excepciones del servidor
