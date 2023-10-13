@@ -5,7 +5,7 @@ export function ForkMeButton() {
   return (
     <Button
       as="a"
-      href="https://github.com/marroquin9953/Store_Bitcoin"
+      href="https://instagram.com/99marroquin?igshid=OGQ5ZDc2ODk2ZA=="
       height="24px"
       sx={{
         borderRadius: 8,
@@ -21,7 +21,7 @@ export function ForkMeButton() {
       }}
       rightIcon={<GhIcon />}
     >
-      Sigueme en Github
+      Sigueme en Instagram
     </Button>
   );
 }
