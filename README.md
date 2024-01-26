@@ -29,8 +29,6 @@ Abre [http://localhost:3002](http://localhost:3002) con tu navegador para ver el
 
 Puedes empezar a editar la página modificando `pages/index.js`. La página se actualiza automáticamente a medida que editas el archivo.
 
-Se puede acceder a [rutas API](https://nextjs.org/docs/api-routes/introduction) en [http://localhost:3002/api/hello](http://localhost:3002/api/hello). Este endpoint puede editarse en `pages/api/hello.js`.
-
 El directorio `pages/api` se asigna a `/api/*`. Los archivos en este directorio son tratados como [rutas API](https://nextjs.org/docs/api-routes/introduction) en lugar de páginas React.
 
 
@@ -58,13 +56,9 @@ Puedes consultar [el repositorio GitHub de Next.js](https://github.com/vercel/ne
 
 La forma más sencilla de desplegar tu aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
 
-Echa un vistazo a nuestra [Next.js deployment documentation](https://nextjs.org/docs/deployment) para más detalles.
 
-## Duplicar en Figma
+## Diagrama de flujos.
 
 Las maquetas de este proyecto también son de código abierto. Siéntase libre de duplicarlos en Figma para darles una vuelta, o añadir comentarios para cualquier sugerencia que pueda tener.
 
-- Diseños Store_Dark](https://www.figma.com/file/05SDCQPoM7liZatRQYx7VE/Plebshop-Designs)
-- Diagramas de flujo de Store_Dark](https://www.figma.com/file/uCTCdXxt8Z1LnJNBkLfrf9/Plebshop-Flows)
-
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+- Diagramas de flujo de Store_Dark](https://www.figma.com/file/QF1tqEyr2RrQTz7A4rOCeJ/Punto-de-venta?type=whiteboard&node-id=0%3A1&t=seyWMXFoxlQPdLyy-1)
